@@ -66,6 +66,30 @@
 			"interval": "5m",
 			"tolerance": 0
 		},
+		 {
+  "type": "vless",
+  "tag": "DE 1",
+  "server": "XXX.XXX.XXX.XXX",
+  "server_port": 443,
+  "uuid": "05ab5068-XXXX-XXXX-XXXX-XXXXX",
+  "tls": {
+    "enabled": true,
+    "server_name": "XXX.XXXX.XXX",
+"record_fragment": true,
+    "utls": {
+    "enabled": true,
+    "fingerprint": "chrome"
+    }
+  },
+  "transport": {
+    "type": "ws",
+    "path": "/78f3453s2vWF",
+    "headers": {
+      "Host": "XXX.XXXX.XXX"
+    },
+    "early_data_header_name": "Sec-WebSocket-Protocol"
+  }
+ },
 		{
 			"type": "trojan",
 			"tag": "trojan-tls-out",
